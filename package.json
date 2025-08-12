@@ -1,0 +1,14 @@
+{
+  "name": "cloudrun-gmaps-scraper",
+  "version": "1.0.0",
+  "description": "Google Maps scraper for Cloud Run (Puppeteer)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "puppeteer": "^21.3.8",
+    "axios": "^1.6.0"
+  }
+}
